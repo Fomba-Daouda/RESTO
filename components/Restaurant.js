@@ -5,7 +5,7 @@ import {icons,images,SIZES,COLORS,FONTS} from '../constants/'
 const Restaurant = ({route,navigation}) => {
     const [restaurant,setRestaurant]=useState(null)
     const [currentLocation,setCurrentLocation]=useState(null)
-    
+    //juste pour un test
     useEffect(()=>{
            let {item,currentLocation} = route.params
            console.log(item) 
